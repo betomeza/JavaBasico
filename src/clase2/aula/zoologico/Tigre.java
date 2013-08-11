@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package clase2.aula.objetos;
+package clase2.aula.zoologico;
 
 /**
  *
@@ -10,6 +10,17 @@ package clase2.aula.objetos;
  */
 public class Tigre extends Animal {
 
+    public Tigre(){
+        this.setNumeroPatas(4);
+        
+    }
+    
+    public Tigre(String nombre){
+        this.setNumeroPatas(4);
+        this.setNombre(nombre);
+        
+    }
+    
     @Override
     void hacerRuido() {
         System.out.println("Rugir");
@@ -23,5 +34,9 @@ public class Tigre extends Animal {
     
     void hacerRuido(String mensaje){
         System.out.println(mensaje);
+    }
+    
+    void zarpar(){
+        System.out.println("ESTOY ZARPANDO");
     }
 }
