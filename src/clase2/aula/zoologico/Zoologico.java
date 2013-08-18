@@ -12,6 +12,10 @@ public class Zoologico {
 
     public static void main(String[] args) {
         Zoologico.doCasting2();
+        Tigre tigreJorge = new Tigre("Jorge");
+        Tigre tigreJose = new Tigre("Jorge");
+        
+        System.out.println(tigreJorge.equals(tigreJose));        
     }
 
     public static void executeCasting(){
