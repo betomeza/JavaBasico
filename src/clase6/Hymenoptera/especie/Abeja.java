@@ -8,6 +8,6 @@ package clase6.Hymenoptera.especie;
  *
  * @author PCC-DOMINGO
  */
-public class Abeja extends Hymenoptera{
+public abstract class Abeja extends Hymenoptera{
     
 }
